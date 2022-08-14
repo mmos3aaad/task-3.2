@@ -1,0 +1,38 @@
+div {
+    /* width: 70px; height: 200px;  */
+    width: 80px; height: 80px;
+    background-color: black; border-radius: 50%;
+    margin-top: 400px; margin-left: 450px;
+    animation: Mm 4s 0.5s infinite normal both;
+    
+    
+}
+
+@keyframes Mm {
+    0% {
+        width: 80px; height: 80px;
+        background-color: black; border-radius: 30%;
+        margin-top: 400px; margin-left: 450px;
+    }
+
+    25% {
+        width: 80px; height: 80px;
+        background-color: black; border-radius: 30%;
+        margin-top: 200px; margin-left: 550px;
+    }
+    50% {
+        width: 80px; height: 80px;
+        background-color: red; border-radius: 30%;
+        margin-top: 400px; margin-left: 650px;
+    }
+    75% {
+        width: 80px; height: 80px;
+        background-color: red; border-radius: 30%;
+        margin-top: 200px; margin-left: 750px;
+    }
+    100% {
+        width: 80px; height: 80px;
+        background-color: black; border-radius: 30%;
+        margin-top: 400px; margin-left: 850px;
+    }
+}
